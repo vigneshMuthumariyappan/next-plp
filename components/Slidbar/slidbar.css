@@ -1,0 +1,32 @@
+
+.slidbar {
+    width: 500px;
+    height: 100vh;
+    background-color: rgb(185, 182, 182);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.filter-button:not(:last-child) {
+    border-right: 1px solid black;
+}
+.filter-button {
+    padding: 3px;
+}
+.isfiltered {
+    border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+}
+.isfiltered button {
+    text-decoration: underline;
+}
+.isfiltered .filter-header{
+    margin-bottom: 3px;
+}
+.attribute-filter-box {
+    padding-left: 10px;
+}
